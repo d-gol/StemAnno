@@ -1,0 +1,30 @@
+.sort-button {
+    -fx-background-color: #4682B4;
+    -fx-text-fill: #FFFFFF;
+    -fx-font: 15px "Arial";
+}
+
+.sort-button-non-clickable {
+    -fx-background-color: #4682B4;
+    -fx-text-fill: #FFFFFF;
+    -fx-font: 15px "Arial";
+}
+
+/*.sort-button:hover {
+    -fx-background-color: #4F94CD;
+}*/
+
+.sort-button-single {
+	-fx-border-radius: 5 5 0 0;
+	-fx-background-radius: 5 5 0 0;
+}
+
+.sort-button-left {
+	-fx-border-radius: 5 0 0 0;
+	-fx-background-radius: 5 0 0 0;
+}
+
+.sort-button-right {
+	-fx-border-radius: 0 5 0 0;
+	-fx-background-radius: 0 5 0 0;
+}

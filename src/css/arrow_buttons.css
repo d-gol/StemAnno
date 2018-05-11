@@ -1,0 +1,21 @@
+.list-cell {
+    -fx-alignment: center;
+}
+
+.arrow-button {
+    -fx-background-color: #4682B4;
+    -fx-text-fill: #FFFFFF;
+    -fx-font: 15px "Arial";
+}
+
+.arrow-button:hover {
+    -fx-background-color: #4F94CD;
+}
+
+.arrow-button-left {
+	-fx-shape: "M 0 50 L 100 0 L 100 100 M 200 25 L 100 25 L 100 75 L 200 75 z";
+}
+
+.arrow-button-right {
+	-fx-shape: "M 0 25 L 100 25 L 100 75 L 0 75 M 100 0 L 200 50 L 100 100 z";
+}

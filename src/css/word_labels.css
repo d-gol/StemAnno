@@ -1,0 +1,27 @@
+.label-word {
+	-fx-border-color:#4682B4;
+	-fx-background-color: #EEEEFF;
+	-fx-font: 20px "Arial";
+	-fx-padding: 0.0 0.0 0.0 0.0;
+}
+
+.label-word-left {
+	-fx-border-radius: 5 0 0 5;
+	-fx-background-radius: 5 0 0 5;
+}
+
+.label-word-right {
+	-fx-border-radius: 0 5 5 0;
+	-fx-background-radius: 0 5 5 0;
+}
+
+.label-word-only {
+	-fx-border-radius: 5 5 5 5;
+	-fx-background-radius: 5 5 5 5;
+}
+
+.label-word-stemmed {
+	-fx-border-color:#4682B4;
+	-fx-background-color: #FF4D4D;
+	-fx-font: 20px "Arial";
+}
