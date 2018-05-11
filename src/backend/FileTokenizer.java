@@ -44,19 +44,6 @@ public class FileTokenizer {
 		if (token.matches(onlyNumbersAndPunct)) {
 			return false;
 		}
-		// Percentage
-		/*if (token.matches("[\\d]+\\,[\\d]+")) {
-			return false;
-		}
-		// Date
-		ArrayList<String> dateFormats = new ArrayList<String>();
-		dateFormats.add("\\d[\\d]?\\.\\d[\\d]?\\.[\\d]?[\\d]?[\\d]?[\\d]?[\\.]?");
-		
-		for (String dateFormat: dateFormats) {
-			if (token.matches(dateFormat)) {
-				return false;
-			}
-		}*/
 		// Is number
 		try {
 			Double.parseDouble(token);
