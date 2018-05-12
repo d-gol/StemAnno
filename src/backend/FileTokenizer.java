@@ -225,7 +225,6 @@ public class FileTokenizer {
     	String toWrite = "";
     	Integer tokensSoFar = 0;
     	
-    	//Kriticno, proveriti!!!
     	for (int k = 0; k < lines.length; k++) {
     		String line = lines[k];
     		String[] tokens = line.toLowerCase().split("[\\s]+");
